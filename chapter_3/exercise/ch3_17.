@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main()
+{
+  int r ,s,a, youngest;
+printf("Enter the ram's age\n:");
+scanf("%d",&r);
+printf(" Enter the shyam's age\n:");
+scanf("%d",&s);
+printf("Enter the ajay's age\n:");
+scanf("%d",&a);
+if(r>s)
+{
+  if(r>a)
+  youngest=r;
+  else
+  youngest=a;
+  }
+printf("youngest of the three=%d\n", youngest);
+  return 0;
+}
