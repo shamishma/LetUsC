@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+  int x,y;
+  printf("Enter the first point:");
+scanf("%d",&x);
+printf("Enter the second point:");
+scanf("%d",&y);
+if(x==0)
+{
+printf("y axis");
+}
+else
+{
+printf("x axis");
+}
+  return 0;
+}
