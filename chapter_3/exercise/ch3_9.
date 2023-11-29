@@ -1,8 +1,0 @@
-#include <stdio.h>
-int main()
-{
-  char X,x;
-if('X'<'x') 
-printf ("ascii value of X is smaller than that ofx\n");
-  return 0;
-}
