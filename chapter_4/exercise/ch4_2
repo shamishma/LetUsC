@@ -1,0 +1,62 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+    int a, b, c, big, s;
+    printf("Enter the variable = ");
+    scanf("%d %d %d", &a, &b, &c);
+    if (a == b && b == c && c == a)
+    {
+        printf("Equilateral triangle !\n");
+    }
+    else if (a == b || b == c || c == a)
+    {
+        printf("Isosceles triangle !\n");
+    }
+    else
+    {
+        printf("scalene triangle !\n");
+    }
+    // if (a > b)
+    // {
+    //     if (a > c)
+    //     {
+    //         big = a*a;
+    //         s = b*b + c*c;
+    //     }
+    //     else
+    //     {
+    //         big = c*c;
+    //         s = a*a + b*b;
+    //     }
+    // }
+    // else
+    // {
+    //     if(b>c)
+    //     {
+    //         big = b*b;
+    //         s = a*a + c*c;
+    //     }
+    //     else
+    //     {
+    //         big = c*c;
+    //         s = a*a + b*b;
+    //     }
+    // }
+    big = (a>b)?((a>c)?a*a:c*c):((b>c)?b*b:c*c);
+    if(big == a*a)
+    {
+        s = b*b + c*c;
+    }
+    if(big == b*b)
+    {
+        s = a*a + c*c;
+    }
+    if(big == c*c)
+    {
+        s = a*a + b*b;
+    }
+    if(big == s)
+    printf("This Is a right angle triangle !");
+    return 0;
+}
