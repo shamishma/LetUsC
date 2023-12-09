@@ -1,0 +1,40 @@
+#include <stdio.h>
+int main()
+{
+    int n, pos = 0, neg = 0, zero = 0, stop = 1;
+    char ch = 'y';
+    while (stop == 1)
+    {
+        if (ch == 'y')
+        {
+            printf("Enter the digit : ");
+            scanf("%d", &n);
+            if (n == 0)
+            {
+                zero++;
+            }
+            if (n > 0)
+            {
+                pos++;
+            }
+            if (n < 0)
+            {
+                neg++;
+            }
+            getchar();
+        }
+        else
+        {
+            printf("Please choose y or n \n");
+            getchar();
+        }
+        printf("Do you want to enter more digit : ");
+        scanf("%c", &ch);
+        if (ch == 'n')
+        {
+            stop = 0;
+        }
+    }
+    printf("Total numbers = %d \nZero = %d\nNegative = %d\nPositive = %d", neg + pos + zero, zero, neg, pos);
+    return 0;
+}
