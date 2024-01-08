@@ -1,11 +1,15 @@
+/* Calculate the output.*/
 #include <stdio.h>
 int main()
 {
-  int i=65;
- char j='A';
-if(i==j)
-printf("C is a wow\n");  
+  int a=6,b=4; 
+if(a>=b)
+{
+printf(" This is a game\n");
+}
 else
-  printf("C is a headache\n");  
-return 0;
+{
+printf("You have to play it\n");
+}
+  return 0;
 }
