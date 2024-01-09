@@ -1,3 +1,5 @@
+/* whether the character entered through thr keyboard is a lower case alphabet 
+ and special symbol or not.*/
 #include <stdio.h>
 int main()
 {

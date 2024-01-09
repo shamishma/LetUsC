@@ -1,3 +1,5 @@
+/*write a program using conditional oretors to determine whether 
+a year entered through the keboard is a leap year or not.*/
 #include<stdio.h>
 int main()
 {

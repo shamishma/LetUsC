@@ -1,3 +1,6 @@
+/* If the lenghts of three sides of a tringle are entered are through the keyboad,
+write a program to check whether the triangle is an isosceles, an equilateral, a 
+scalene or a right angled triangle.  */
 #include <stdio.h>
 #include <math.h>
 int main()

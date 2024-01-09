@@ -1,3 +1,4 @@
+/* write a progam to calculate the salary as per the following table:*/
 #include <stdio.h>
 int main()
 {

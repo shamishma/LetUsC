@@ -1,3 +1,6 @@
+/*if the lenght of three side of a triangle are entere through the keborad, write a program
+ to check whether the triangle is valid is or not.The triangle is valid if the sum of two 
+ sides is greater than the largest of three sides.*/
 #include <stdio.h>
 int main()
 {

@@ -1,3 +1,8 @@
+/*In digital world colors are specifier in red green blue(RGB) format, with alues of R,G,B
+ variying on an integer scale form 0 to 255. In print publishing the colors are mentioned 
+ in cyan megenta yellow black(CMYK) formate, ith valuesof C,M,Y,and K variying on a real 
+ scale form 0.0 to 1.0. 
+ write a program that convert RGB color to CMYK color.*/
 #include <stdio.h>
 int main()
 {
