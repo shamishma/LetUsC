@@ -1,14 +1,21 @@
-#include <stdio.h>
+/* Find the number is not prime or not*/
+#include<stdio.h>
 int main()
+ {
+    int num,i;
+    printf("Enter a number : ");
+    scanf("%d", &num);
+for(i=2;i<=num-1;i++)
 {
-    int i, j;
-    for (i = 1; i <= 5; i++)
-    {
-        for (j = 1; j <= i; j++)
-        {
-            printf("* ");
-        }
-        printf("\n");
+  if(num%i==0)
+  {
+    printf("Not a prime number!");
+    break;
     }
+    }
+    if(i==num)
+    {
+      printf("Prime number!");
+      }
     return 0;
 }

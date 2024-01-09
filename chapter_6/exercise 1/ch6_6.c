@@ -1,14 +1,25 @@
 #include <stdio.h>
 int main()
 {
-    int i, j;
-    for (i = 1; i <= 5; i++)
+    int n;
+    char ch = 'y';
+    while (1)
     {
-        for (j = 1; j <= 5; j++)
+        if (ch == 'y')
         {
-            printf("* ");
+            printf("Enter the number :");
+            scanf("%d", &n);
+            printf("Square of the number is : %d\n ", n * n);
         }
-        printf("\n");
+        else
+        {
+            printf("Please enter A valid source !\n");
+        }
+        getchar();
+        printf("Do you want to check more\n:");
+        scanf("%c", &ch);
+        if (ch == 'n')
+            break;
     }
     return 0;
 }

@@ -1,3 +1,4 @@
+/* Calculated the output*/
 #include <stdio.h>
 int main()
 {

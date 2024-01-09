@@ -1,3 +1,5 @@
+/* If x is input through the keyborad, write to calulated 
+the sum of fist seven tems of the series.*/
 #include <stdio.h>
 int main()
 {

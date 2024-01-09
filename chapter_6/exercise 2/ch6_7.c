@@ -1,3 +1,4 @@
+/* write the program to drow the pattern.*/
 #include <stdio.h>
 int main()
 {

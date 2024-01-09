@@ -1,3 +1,4 @@
+/* find the pattern.*/
 #include <stdio.h>
 int main()
 {

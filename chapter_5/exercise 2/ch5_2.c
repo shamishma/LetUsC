@@ -1,4 +1,5 @@
-
+/* Write a program to print all the ASCII values and their equivalent chaecters using a while loop.
+The ASCII values vary from 0 to 255.*/
 #include <stdio.h>
 int main()
 {

@@ -1,30 +1,33 @@
-#include<stdio.h>
+/*Write a program t find therange of a set of numbers entered through the keyboard.
+Range is the difference eteen the smallest and biggst number in the list.*/
+#include <stdio.h>
 int main()
- {
-    int num, s, l,r;
+{
+    int num, s, l, r;
     printf("Enter a number 0 to end: ");
     scanf("%d", &num);
     while (num != 0)
- {
- if (num<s)
-{
-                s= num;
-            }
-else if (num > l)
-{
-                l= num;
-            }
+    {
+        if (num < s)
+        {
+            s = num;
+        }
+        else if (num > l)
+        {
+            l = num;
         }
     }
-    if (s!= l)
+
+else if (s != l)
 {
-         r= l - s;
-        printf("The range of the entered numbers is: %d\n", r);
-    }
+    r = l - s;
+    printf("The range of the entered numbers is: %d\n", r);
+}
 else
 {
-        printf("Only entered valid one numbe\n");
-    }
-
-    return 0;
+    printf("Only entered valid one numbe\n");
 }
+
+return 0;
+}
+

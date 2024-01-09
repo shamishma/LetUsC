@@ -1,4 +1,6 @@
-/**/
+/*Write a program to find the grace marks for a student using switch. the user
+should enter the class obtained by the student and the number of subject he 
+has filed in */
 #include <stdio.h>
 int main()
 {

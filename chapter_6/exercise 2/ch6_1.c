@@ -1,6 +1,6 @@
-
+/*Write a program to print the multiplication table of the number entered by the
+ user.The table should get displayed in the following form (like: 12*1=12.)*/
 #include <stdio.h>
-
 int main()
  {
     int num;

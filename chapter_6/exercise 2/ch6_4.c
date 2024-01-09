@@ -1,3 +1,5 @@
+/*  Write a program to genrate all pythagorean trilets has with side
+ lenght ss than or equal to 30.*/
 #include<stdio.h>
 int main()
 {

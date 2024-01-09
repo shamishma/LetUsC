@@ -1,3 +1,4 @@
+/* Write a program to print a table of a number given by user.*/
 #include <stdio.h>
 int main()
 {

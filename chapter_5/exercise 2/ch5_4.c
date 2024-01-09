@@ -1,3 +1,5 @@
+/* Write a program to enter number till te user ants. At the end it should 
+displaythe count of positive,negetiveand zeros entered*/
 #include <stdio.h>
 int main()
 {

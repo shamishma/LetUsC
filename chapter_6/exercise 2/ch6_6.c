@@ -1,3 +1,4 @@
+/* write a program to print 24 hours of day with suitable suffixes like AM,PM,noon and midnight, */
 #include <stdio.h>
 int main()
 {

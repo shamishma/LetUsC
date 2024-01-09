@@ -1,3 +1,4 @@
+/*Write a program to recieve an integer and find its octal equivalent. */
 #include <stdio.h>
 #include <math.h>
 int main()
