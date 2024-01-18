@@ -12,9 +12,9 @@ int main()
         int num;
         printf("Choose any option!\n");
         printf("1.Addition\n");
-        printf("2.Subraction\n");
+        printf("2.Subtraction\n");
         printf("3.Multiplication\n");
-        printf("4.Devidation\n");
+        printf("4.Deviation\n");
         printf("5.Exit\n");
         printf(":::> ");
         scanf("%d", &num);

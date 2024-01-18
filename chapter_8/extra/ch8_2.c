@@ -1,11 +1,12 @@
 #include <stdio.h>
 void fun1();
 void fun2();
+void fun3();
 int main()
 {
+    int num;
     while (1)
     {
-        int num;
         printf("Choose any option!\n");
         printf("1.Factorial\n");
         printf("2.prime or not\n");
@@ -43,33 +44,30 @@ void fun1()
     {
         fact = fact * i;
     }
-    printf("Factorial of %d is %d !", num, fact);
-    return 0;
+    printf("Factorial of %d is %d !\n\n", num, fact);
 }
 void fun2()
 {
     int num, i;
     printf("Enter a number : ");
     scanf("%d", &num);
-    for (i = 2; i <= num - 1; i++)
+    for (i = 2; i < num; i++)
     {
         if (num % i == 0)
         {
-            printf("Not a prime number!");
+            printf("Not a prime number!\n\n");
             break;
         }
     }
     if (i == num)
     {
-        printf("Prime number!");
+        printf("Prime number!\n\n");
     }
-    return 0;
 }
 void fun3()
 {
     int year;
     printf("Enter the year : ");
     scanf("%d", &year);
-    ((year%400==0)||(year%100!=0)&&(year%4==0))?
-    printf("It is a leap year !"):printf("It is not a leap year !");
+    ((year%400==0)||(year%100!=0)&&(year%4==0))?printf("It is a leap year !"):printf("It is not a leap year !\n\n");
 }
