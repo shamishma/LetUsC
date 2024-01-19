@@ -1,5 +1,5 @@
 /* If value of angle is input through the keyboard ,
-Write a program to print all the trignometric ratio.*/
+Write a program to print all the trigonometry ratio.*/
 #include<stdio.h>
 #include<math.h>
 int main()

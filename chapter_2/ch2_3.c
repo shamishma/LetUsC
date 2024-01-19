@@ -1,6 +1,6 @@
 /*Write a program to receive values of latitude(l1,l2) an longitude (g1,g2), in degrees, 
 of two places on the earth and output the distance (d) between them in nautical miles.
-The formula for ditance in nautical miles is :d=3963cos^-1(sinl1sinl2+cosl1cosl2*cos(g1-g2))
+The formula for distance in nautical miles is :d=3963cos^-1(sinl1sinl2+cosl1cosl2*cos(g1-g2))
 */
 #include<stdio.h>
 #include<math.h>

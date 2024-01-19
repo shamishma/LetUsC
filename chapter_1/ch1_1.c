@@ -1,5 +1,5 @@
 /*Temperature of a city in fahrenheit degree is input through the keyboard.
-Write to convert this tempature into cntigrade degrees.*/
+Write to convert this temperature into centigrade degrees.*/
 #include <stdio.h>
 int main()
 {
@@ -7,6 +7,6 @@ int main()
   printf("Enter temp in f :");
   scanf("%f", &f);
   c = (f - 32) * 5 / 9;
-  printf("\nTemperature of two cities in c is                 : %f", c);
-   return 0;
+  printf("\nTemperature of two cities in c is: %f", c);
+  return 0;
 }

@@ -1,5 +1,5 @@
 /* If a five number is input through the keyboard, write a program to calculate the sum of its digits.
-(Hint: Use the modulas operator %)*/
+(Hint: Use the modules operator %)*/
 #include<stdio.h>
 int main()
 {

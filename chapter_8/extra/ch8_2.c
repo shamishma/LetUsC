@@ -10,7 +10,7 @@ int main()
         printf("Choose any option!\n");
         printf("1.Factorial\n");
         printf("2.prime or not\n");
-        printf("3.leep year\n");
+        printf("3.leap year\n");
         printf("4.Exit\n");
         printf(":::> ");
         scanf("%d", &num);
