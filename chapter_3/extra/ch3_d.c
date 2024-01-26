@@ -1,4 +1,4 @@
-/* Finde the leap year.*/
+/* Find the leap year.*/
 #include<stdio.h>
 int main()
 {

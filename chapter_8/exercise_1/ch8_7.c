@@ -1,9 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    char c;
-    printf("Enter the character = ");
-    c = getchar();
-    printf("--- %c",c);
+    int i=10,j=20;
+    printf("%d %d %d\n",i,j);
+    printf("%d\n",i,j);
     return 0;
 }
