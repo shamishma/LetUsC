@@ -1,5 +1,5 @@
-/*Write a program t find therange of a set of numbers entered through the keyboard.
-Range is the difference eteen the smallest and biggst number in the list.*/
+/*Write a program t find the range of a set of numbers entered through the keyboard.
+Range is the difference between the smallest and biggest number in the list.*/
 #include <stdio.h>
 int main()
 {

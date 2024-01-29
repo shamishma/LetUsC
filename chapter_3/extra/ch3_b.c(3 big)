@@ -1,4 +1,4 @@
-/* Finde the bigest variable */
+/* Find the biggest variable */
 #include<stdio.h>
 int main()
 {

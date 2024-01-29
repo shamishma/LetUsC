@@ -1,4 +1,4 @@
-/* Given the lenght and breath of a rectangle, write a program to find whether the
+/* Given the length and breath of a rectangle, write a program to find whether the
  area of the rectangle is greater than its perimeterFor example,the area of the 
  rectangle with length=5 and breadth=4 is grater than its perimeter*/
 #include<stdio.h>

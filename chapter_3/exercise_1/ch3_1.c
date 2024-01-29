@@ -1,4 +1,4 @@
-/* A Five digit number is enetered through the keyboard. Write a program
+/* A Five digit number is entered through the keyboard. Write a program
  to obtain the revered number and to determine whether the original and
   revered numbers are equal or not.  */
 #include <stdio.h>

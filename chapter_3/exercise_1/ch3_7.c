@@ -1,5 +1,5 @@
 /* Given the coordinates(x,y) of center of a circle and its radius,write a program to that will
- determine whether a point lies inside the circle on the circle or outside the cirle.
+ determine whether a point lies inside the circle on the circle or outside the circle.
  (Hint: use sqrt() and pow() function) */
 #include<stdio.h>
 #include<math.h>

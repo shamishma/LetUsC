@@ -1,4 +1,4 @@
-/* Write a progam to recieve of an angle in degrees an check whether sum
+/* Write a program to receieve of an angle in degrees an check whether sum
 of squares of sine and cosine of this angle is qual to 1.*/
 #include<stdio.h>
 #include<math.h>

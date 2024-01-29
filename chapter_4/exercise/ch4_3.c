@@ -1,9 +1,9 @@
-/* A cartain of steel is graded according to the following condition:
+/* A certain of steel is graded according to the following condition:
 (1) Hardness must be greater than 50
 (2) Carbon content mus be the than 0.7
-(3) Tensile strenght must be greater than 5600
-Write a program, which will equire the user to gien values of hardness ,
- corbon content and tensile stenght of thesteel uner consideration and output the grsde of the steel.*/
+(3) Tensile strength must be greater than 5600
+Write a program, which will enquire the user to given values of hardness ,
+ carbon content and tensile strength of ten steel under consideration and output the grade of the steel.*/
 #include<stdio.h>
 int main()
 {

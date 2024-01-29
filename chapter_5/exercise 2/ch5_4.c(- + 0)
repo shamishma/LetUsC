@@ -1,5 +1,5 @@
-/* Write a program to enter number till te user ants. At the end it should 
-displaythe count of positive,negetiveand zeros entered*/
+/* Write a program to enter number till te user ants. At the end it should
+display the count of positive,negative and zeros entered*/
 #include <stdio.h>
 int main()
 {
@@ -30,7 +30,7 @@ int main()
             printf("Please choose y or n \n");
             getchar();
         }
-        printf("Do you want to enter more digit : ");
+        printf("Do you want to enter more digit \n ");
         scanf("%c", &ch);
         if (ch == 'n')
         {
