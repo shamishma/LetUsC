@@ -1,3 +1,4 @@
+/* Function which return sum, average and standard deviation*/
 #include <stdio.h>
 #include <math.h>
 void stats(int *, int *, double *);

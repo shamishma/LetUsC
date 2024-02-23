@@ -1,3 +1,5 @@
+/* Write a program that defines a function that calculates power of one  number raised to 
+another and factorial value of a number in one call*/
 #include <stdio.h>
 void power_fact(float, int, int, float *, int *);
 int main()

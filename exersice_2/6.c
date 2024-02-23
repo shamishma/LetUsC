@@ -1,3 +1,4 @@
+/*Find the output*/
 #include <stdio.h>
 void function(int *);
 int main()
