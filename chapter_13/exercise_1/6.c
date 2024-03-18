@@ -9,7 +9,7 @@ int main()
     {
         sum += arr[i];
     }
-    printf("Totl salary paid = %d\n", sum);
+    printf("Total salary paid = %d\n", sum);
 
     return 0;
 }
