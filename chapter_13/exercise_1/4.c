@@ -7,7 +7,7 @@ int main()
     printf("Enter the value = ");
     for (i = 0; i < 5; i++)
     {
-        printf("%d ", &b[i]);
+        printf("%d \n", &a[i]);
     }
     return 0;
 }
