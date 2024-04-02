@@ -6,7 +6,7 @@ int main()
     p= &a[7];
     p=a;
     printf("%d\n",*(p));
-    printf("%d\n",*(p+1));
+    printf("%d\n",*(p++));
     printf("%d\n", *(p - 1));
     return 0;
 }
