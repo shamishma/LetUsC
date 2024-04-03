@@ -1,6 +1,6 @@
 /*write a program for a matchstick game being played between the computer and a user. Your program should 
-ensure that the compoter always wins. following the rule:
-1 There are 21 matchstiks and the computer asks the player to pick 1,2,3or 4 matchstcks.
+ensure that the computer always wins. following the rule:
+1 There are 21 matchsticks and the computer asks the player to pick 1,2,3or 4 matchsticks.
 2 After the person picks,the computer does its picking and whoever is forced to pick
  up the last matchstick loses the game.*/
 #include <stdio.h>
