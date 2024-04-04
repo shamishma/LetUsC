@@ -12,5 +12,7 @@ int main()
     printf("Enter the number = ");
     scanf("%d", &x);
     FACT(x);
+    getchar();
+    getchar();
     return 0;
 }
