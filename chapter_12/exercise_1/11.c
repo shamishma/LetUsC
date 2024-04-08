@@ -6,7 +6,7 @@ for calculating simple interest and amount. */
 int main()
 {
     float n, r, p,a;
-    printf("Enter number of year      : ");
+    printf("Enter number of years      : ");
     scanf("%f", &n);
     printf("Enter rate of interest    : ");
     scanf("%f", &r);
