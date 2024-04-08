@@ -1,0 +1,1 @@
+#define SI(p,n,r) p*n*r/100
