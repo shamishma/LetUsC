@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    char arr[6]={'A','P','P','L','E','\0'};
+    char arr[6]={'A','P','P','L','E','\0'};/*same as =char arr[6]="APPLE";*/
     // char *p;
     // p=arr;
     // while(*p!='\0')
