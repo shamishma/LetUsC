@@ -1,3 +1,4 @@
+/*write a program to add two 6*6 matrix*/
 #include<stdio.h>
 int main()
 {
