@@ -3,8 +3,9 @@
 void shift(int arr[],int n);
 int main()
 {
-    int array[6] = {1, 2, 3, 4, 5, 6};
+    int array[] = {1, 2, 3, 4, 5, 6,8,4,2,9};
     int a;
+    a = sizeof(array)/sizeof(array[0]);
     // int temp[2];
     // for (int i = 0; i < 2; i++)
     // {
@@ -23,7 +24,7 @@ int main()
     // }
     // printf("\n");
     shift(array,a);
-        for (int i = 0; i < 6; i++)
+        for (int i = 0; i < a; i++)
     {
         printf("%d ", array[i]);
     }
