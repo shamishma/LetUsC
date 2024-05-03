@@ -1,18 +1,18 @@
 #include <stdio.h>
 #include <string.h>
-void str( );
+void strc(char name[] );
 int main()
 {
-    char str[] = "mohan";
-    int x, i;
-     puts(str);
+    char str[10] = "mohan";
+    strc(str);
+    puts(str);
     return 0;
 }
-void str(name)
+void strc(char name[])
 {
     char y,a;
-   y = strlen(str);
-    for (a = 0; a< y; a++)
+   y = strlen(name);
+    for (a = 0; a< 10; a++)
     {
         if (name[a]>96 && name[a]<123)
         {
