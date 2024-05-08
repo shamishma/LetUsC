@@ -1,3 +1,4 @@
+/*write a program that extract part of the given string from string from the specified position*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

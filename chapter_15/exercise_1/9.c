@@ -1,31 +1,45 @@
 #include <stdio.h>
+#include <string.h>
 int main()
 {
-    int n, mul = 10, sum = 0, i;
-    char ISBN[11];
-    printf("Enter the ISBN number : ");
-    scanf("%s", &ISBN);
-    for (i = 0; i < 10; i++)
+    long long int n = 4567123456789129, i;
+    int arr[16], digit, sum = 0, sum2 = 0, sum3 = 0;
+    // printf("Enter the 16 digit number = ");
+    // scanf("%lld",&n);
+    // printf("%lld\n",n);
+    for (i = 15; i >= 0; i--)
     {
-        if (ISBN[i] == 'x' || ISBN[i] == 'X')
+        arr[i] = n % 10;
+        n = n / 10;
+    }
+    for (i = 0; i < 16; i++)
+    {
+        if (i % 2 == 0)
         {
-            n = 10;
-            sum = sum + n * mul;
+            digit = arr[i] * 2;
+            if (digit > 9)
+            {
+                digit = digit - 9;
+            }
+            sum = sum + digit;
         }
         else
         {
-            n = ISBN[i] - 48;
-            sum = sum + n * mul;
+            sum2 = sum + digit;
         }
-        mul--;
     }
-    if (sum % 11 == 0)
+    // printf("%d ",arr[i]);
+    printf("%d\n", sum);
+    printf("%d\n ", sum2);
+    sum3 = sum + sum2;
+    printf("%d\n", sum3);
+    if (sum3 % 10 == 0) /*if sum3=80*/
     {
-        printf("Valid ISBN number.\n");
+        printf("Credit number is valid !");
     }
     else
     {
-        printf("invalid ISBN no.\n");
+        printf("Credit card number is not valid !");
     }
 
     return 0;
