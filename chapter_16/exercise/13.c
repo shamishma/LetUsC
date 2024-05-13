@@ -8,12 +8,9 @@ int main()
     fgets(str, sizeof(str), stdin);
     for (int i = 0; i < strlen(str) - 1; i++)
     {
-        if (isalpha(str[i]) && strchr("aeiouAEIOU", str[i]))
+        if(str[i]=='a'||str[i]=='A'||str[i]=='e'||str[i]=='E'||str[i]=='o'||str[i]=='O'||str[i]=='i'||str[i]=='I'||str[i]=='u'||str[i]=='U')
         {
-            if (isalpha(str[i + 1]) && strchr("aeiouAEIOU", str[i + 1]))
-            {
-                count++;
-            }
+            
         }
     }
     printf("Number of occurrences of any two vowels in succession: %d\n", count);
