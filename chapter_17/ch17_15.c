@@ -16,7 +16,7 @@ int compareDates(struct Date date1, struct Date date2)
     }
     else
     {
-        return 1; 
+        return 1;
     }
 }
 
@@ -26,7 +26,7 @@ int main()
     int choice, result;
 
     while (1)
-    { 
+    {
         printf("Menu:\n");
         printf("1. Enter  first date \n");
         printf("2. Enter second date \n");

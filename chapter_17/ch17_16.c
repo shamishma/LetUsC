@@ -43,7 +43,7 @@ int main()
             input(books, &numBooks);
             break;
         case 2:
-            printAll(books,numBooks);
+            printAll(books, numBooks);
             break;
 
         default:
@@ -54,7 +54,7 @@ int main()
 }
 void input(struct record books[], int *n)
 {
-    printf("Enter the record of book %d\n",*n + 1);
+    printf("Enter the record of book %d\n", *n + 1);
     getchar();
     printf("Enter the title of the book : ");
     gets(books[*n].title);
@@ -65,17 +65,17 @@ void input(struct record books[], int *n)
     printf("Enter the price of the book : ");
     scanf("%f", &books[*n].price);
     books[*n].issue = 'N';
-    *n = *n +1;
+    *n = *n + 1;
 }
 void printAll(struct record books[], int n)
 {
-    for(int i = 0; i < n; i++)
+    for (int i = 0; i < n; i++)
     {
-        printf("Book no. %d\n",i+1);
-        printf("Book name       : %s\n",books[i].title);
-        printf("Author name     : %s\n",books[i].author);
-        printf("Accession no.   : %s\n",books[i].accession);
-        printf("Price of book   : %.2f\n",books[i].price);
-        printf("Book issued     : %c\n",books[i].issue);
+        printf("Book no. %d\n", i + 1);
+        printf("Book name       : %s\n", books[i].title);
+        printf("Author name     : %s\n", books[i].author);
+        printf("Accession no.   : %s\n", books[i].accession);
+        printf("Price of book   : %.2f\n", books[i].price);
+        printf("Book issued     : %c\n", books[i].issue);
     }
 }
