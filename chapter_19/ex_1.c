@@ -3,17 +3,17 @@ int main()
 {
     FILE *fp;
     char ch;
-    fp = fopen("PR1.c", "r");
-    while(1)
+    fp = fopen("PR1.TEXT", "r");
+    while (1)
     {
         ch = fgetc(fp);
         if (ch == EOF)
-            
-        break;
+
+            break;
         printf("%c", ch);
     }
     printf("\n");
-        fclose(fp);
+    fclose(fp);
 
     return 0;
 }
