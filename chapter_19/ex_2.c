@@ -8,11 +8,11 @@ int main()
     fp = fopen("PR1.TEXT", "r");
     while (1)
     {
-        ch = fgets(fp);
+        ch = fgetc(fp);
         if (ch == EOF)
             break;
         noc++;
-        if (ch =='')
+        if (ch ==' ')
             nob++;
         if (ch == '\n')
             nol++;

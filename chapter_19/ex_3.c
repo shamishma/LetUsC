@@ -1,29 +1,29 @@
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 int main()
 {
-    FILE *fs,*ft;
+    FILE *fs, *ft;
     char ch;
-    fs=fopen("PR1.TEXT","r");
-    if(fs==NULL)
+    fs = fopen("PR1.TEXT", "r");
+    if (fs == NULL)
     {
         puts("Cannot open source file");
         exit(1);
     }
-    ft=fopen("PR2.TEXT","w");
-    if(ft==NULL)
+    ft = fopen("PR2.TEXT", "w");
+    if (ft == NULL)
     {
         puts("Cannot open target file");
         fclose(fs);
         exit(2);
     }
-    while(1)
+    while (1)
     {
-        ch==fgetc(fs);
-        if(ch==EOF)
-        break;
-        else 
-        fputc(ch,ft);
+        ch = fgetc(fs);
+        if (ch == EOF)
+            break;
+        else
+            fputc(ch, ft);
     }
     fclose(fs);
     fclose(ft);
