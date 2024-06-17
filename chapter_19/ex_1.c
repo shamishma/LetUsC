@@ -14,6 +14,5 @@ int main()
     }
     printf("\n");
     fclose(fp);
-
     return 0;
 }
