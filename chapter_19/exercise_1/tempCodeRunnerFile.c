@@ -1,0 +1,1 @@
+/*Add the data in binary and text,append the data in binary and text, read the data in binary and text

@@ -1,0 +1,14 @@
+Name : PUSHPENDRA KUMAR
+AGE : 26
+CLASS : BSC
+Name : Rajat Singh
+Age : 26
+Class : bca
+Name : Karishma 
+Age : 20
+Class : bsc
+
+Name : Kapil
+Age : 25
+Class : 26
+ 

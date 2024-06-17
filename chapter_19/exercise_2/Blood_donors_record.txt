@@ -1,0 +1,33 @@
+lata                aligarh                                 242
+lata                aligarh                                 221
+s                   aligarh                                 252
+kajal               aligarh                                 273
+Sahil Aligarh 28 2
+Karan 22 28 2
+"d:\c\LetUsC\chapter&& && 28 2
+ex_8.c -o 28 2
+&& cls 28 2
+"d:\c\LetUsC\chapterncd ncd 0 2
+&& gcc 0 2
+-o ex_8 0 2
+cls && 0 2
+cd "d:\c\LetUsC\chapter_19\exer 1547252063 1919252581
+gcc ex_8.c 1547252063 1919252581
+ex_8 && 1547252063 1919252581
+&& "d:\c\LetUsC\chapter_19\exer 1547252063 1919252581
+"d:\c\LetUsC\chapter&& && 1547252063 1919252581
+ex_8.c -o 1547252063 1919252581
+&& cls 1547252063 1919252581
+"d:\c\LetUsC\chaptercd cd 1547251968 1919252581
+&& gcc 1547251968 1919252581
+-o ex_8 1547251968 1919252581
+cls && 1547251968 1919252581
+Sahil Aligarh 28 1
+Karan Aligarh 22 2
+cd "d:\c\LetUsC\chapter_19\exer 1547252063 1919252581
+gcc ex_6.c 1547252063 1919252581
+ex_6 && 1547252063 1919252581
+&& "d:\c\LetUsC\chapter_19\exer 1547252063 1919252581
+"d:\c\LetUsC\chapter&& && 1547252063 1919252581
+ex_6.c -o 1547252063 1919252581
+&& cls 1547252063 1919252581
