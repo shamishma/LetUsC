@@ -1,82 +1,42 @@
 #include <stdio.h>
-#include <conio.h>
 #include <string.h>
-#include <stdlib.h>
-#include <Windows.h>
-void add_info(char *, char *);
-void display(char *);
-void disbys(int, char *);
+void convert(char *str);
+char cypher[52] = "ABCDEFGHIJKMNOPQRSTUVWXYZ";
+char change[52] = "abjdcjfjcfjvgjvbgjjvjvgbj";
 int main()
 {
-    disbys(1, "Students.txt");
-    _getch();
+    FILE *p;
+    char str[1000];
+    printf("Enter the string : ");
+    fgets(str, sizeof(str), stdin);
+    p = fopen("File9.txt", "w");
+    if (p == NULL)
+    {
+        printf("Failed to open file.\n");
+        return 1;
+    }
+    while (strlen(gets(str)) > 0)
+    {
+        convert(str);
+        printf("%s", str);
+        // fprintf(p, "%s", str);
+    }
+    fclose(p);
     return 0;
 }
-void add_info(char *name, char *file)
+void convert(char *str)
 {
-    FILE *fp;
-    fp = fopen(file, "r+");
-    if (fp == NULL)
-        fp = fopen(file, "w");
-    fseek(fp, 0, SEEK_END);
-    fputs(name, fp);
-    putc('\n', fp);
-    fclose(fp);
-}
-void display(char *file)
-{
-    FILE *fp;
-    char name[30];
-    fp = fopen(file, "r");
-    if (fp == NULL)
+    for (int i = 0; i < strlen(str); i++)
+
     {
-        printf("File do not exist.");
-        _getch();
-        exit(1);
-    }
-    while (fscanf(fp, "%s", name) != -1)
-        puts(name);
-    fclose(fp);
-}
-void disbys(int num, char *file)
-{
-    FILE *fp;
-    int i;
-    char name[30];
-    fp = fopen(file, "r");
-    if (fp == NULL)
-    {
-        printf("File do not exist.");
-        _getch();
-        exit(2);
-    }
-    for (i = 1; fscanf(fp, "%s", name) != -1; i++)
-    {
-        if (i == num)
+        for (int j = 0; j < 52; j++)
+
         {
-            switch (num)
+            if (str[i] == cypher[j])
+
             {
-            case 1:
-                printf("%dst name is : ", num);
-                break;
-            case 2:
-                printf("%dnd case is : ", num);
-                break;
-            case 3:
-                printf("%drd name is : ", num);
-                break;
-            default:
-                printf("%dth name is : ", num);
+                str[i] = change[j];
             }
-            printf("%s\n\n", name);
-            break;
         }
     }
-    if (fscanf(fp, "%s", name) == -1)
-        printf("There's only %d names.\n", i);
-    rewind(fp);
-    while (fscanf(fp, "%s", name) != -1)
-        if (name[0] == 'S' || name[0] == 's')
-            puts(name);
-    fclose(fp);
 }
