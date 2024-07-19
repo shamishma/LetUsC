@@ -1,7 +1,7 @@
 /*1. Add book information
-    2.Display book information 
+    2.Display book information
     3. List all books of given author
-     4. List the title of specified book 
+     4. List the title of specified book
      5. List the count of books in the library
       6. Issue book
        7. List books in the order of accession number*/
@@ -11,7 +11,7 @@
 
 #define MAX_BOOK 100
 
-    struct book
+struct book
 {
     char accessionNumber[30];
     char title[50];

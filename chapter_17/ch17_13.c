@@ -6,14 +6,15 @@ standard library function*/
 #include <stdlib.h>
 #include <string.h>
 #define MAX_NAME_LENGTH 3
-typedef struct 
+typedef struct
 {
     char name[MAX_NAME_LENGTH];
     int age;
     int num_test_matches;
     float avg_runs;
 } Cricketer;
-int compareByAvgRuns(const void *a, const void *b) {
+int compareByAvgRuns(const void *a, const void *b)
+{
     const Cricketer *cricketerA = (const Cricketer *)a;
     const Cricketer *cricketerB = (const Cricketer *)b;
     if (cricketerA->avg_runs < cricketerB->avg_runs)
@@ -25,10 +26,10 @@ int compareByAvgRuns(const void *a, const void *b) {
 }
 
 int main()
- {
+{
     Cricketer cricketers[3];
     printf("Enter records of cricketers :\n");
-    for (int i = 0; i < 3; ++i) 
+    for (int i = 0; i < 3; ++i)
     {
         printf("Cricketer %d  =>        :\n", i + 1);
         printf("Name                    : ");
@@ -44,7 +45,7 @@ int main()
     }
     qsort(cricketers, 3, sizeof(Cricketer), compareByAvgRuns);
     printf("Records of cricketers sorted by average runs (ascending order):\n");
-    for (int i = 0; i < 3; ++i) 
+    for (int i = 0; i < 3; ++i)
     {
         printf("Cricketer %d  =>        :\n", i + 1);
         printf("Name                    : %s\n", cricketers[i].name);
